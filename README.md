@@ -49,6 +49,18 @@ These instructions will help you get the project up and running on your local ma
 2. **Interact with the Application**
    - Send a GET request to `/start` to initiate a new conversation thread.
    - Send a POST request to `/chat` with `thread_id` and `message` in the JSON body to interact with the assistant.
+   - Example:
+   
+   <pre>
+```json
+{
+  "thread_id": "thread_k2HxynJhn49bL0pSnoD5y5V6",
+  "message": "hola"
+}
+```
+</pre>
+   
+
 
 ## Notes
 

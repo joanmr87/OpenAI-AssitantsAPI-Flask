@@ -1,2 +1,5 @@
 .env
 /history
+venv/
+__pycache__/
+.DS_Store
